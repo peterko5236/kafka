@@ -1,0 +1,13 @@
+peter-kafka01:
+  zookeeper: peter-zk001.foo.bar:2181/peter-kafka01
+  brokers:
+    - peter-kafka001.foo.bar
+    - peter-kafka002.foo.bar
+    - peter-kafka003.foo.bar
+
+peter-kafka02:
+  zookeeper: peter-zk001.foo.bar:2181/peter-kafka02
+  brokers:
+    - peter-kafka011.foo.bar
+    - peter-kafka012.foo.bar
+    - peter-kafka013.foo.bar
