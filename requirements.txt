@@ -1,2 +1,3 @@
 kazoo==2.5.0
 PyYAML==3.12
+confluent-kafka==0.11.4
